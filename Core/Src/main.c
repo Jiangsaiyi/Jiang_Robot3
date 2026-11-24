@@ -191,9 +191,9 @@ static void show()
     sprintf(message,"%s  %s  %dms  %d ",state1,rank1,s,led_pos);
   else if (run == 0 && dir == 1)
     sprintf(message,"%s  %s  %dms  %d ",state0,rank1,s,led_pos);
-  else if (run == 1 && dir == 0)
+  else if (run == 1 && dir == -1)
     sprintf(message,"%s  %s  %dms  %d ",state1,rank0,s,led_pos);
-  else if (run == 0 && dir == 0)
+  else if (run == 0 && dir == -1)
     sprintf(message,"%s  %s  %dms  %d ",state0,rank0,s,led_pos);
 
 
